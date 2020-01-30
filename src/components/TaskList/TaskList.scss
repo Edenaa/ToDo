@@ -1,0 +1,15 @@
+.tasks {
+  max-width: 600px;
+  margin-top: 30px;
+  input {
+    width: 100%;
+  }
+  .buttons-block {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .button--add {
+    margin-right: 10px;
+  }
+}

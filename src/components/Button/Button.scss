@@ -1,0 +1,83 @@
+.button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  
+  &--original {
+    background-color: transparent;
+  }
+
+  &--cancel {
+    background-color: #F4F6F8;
+    color: #9C9C9C;
+  }
+
+  &--cancel-folder {
+    position: absolute;
+    justify-content: center;
+    top: -10px;
+    right: -10px;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #5C5C5C;
+    color: #FFFFFF;
+  }
+
+  &--add {
+    background-color: #4DD599;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    &:disabled {
+      background-color: lighten(#4DD599, 20%);
+    }
+  }
+
+  &--delete {
+    position: relative;
+    padding: 0;
+    background-color: transparent;
+    color: #E3E3E3;
+    font-size: 20px;
+    z-index: 1000;
+  }
+
+  &--edit {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    padding: 0;
+    background-color: transparent;
+    background-image: url(../../images/edit.svg);
+    background-size: contain;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  .icon {
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 10px;
+    vertical-align: bottom;
+    &--all {
+      display: block;
+      width: 12px;
+      height: 10px;
+      background-image: url(../../images/entypo-list.svg);
+      background-size: contain;
+    }
+  }
+}

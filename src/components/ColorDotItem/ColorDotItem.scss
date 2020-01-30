@@ -1,0 +1,71 @@
+.color-dot {
+  $self: &;
+  
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  &--gray {
+    background-color: #C9D1D3;
+    &#{$self}--active {
+      border: 2px solid darken(#C9D1D3, 30%);
+    }
+  }
+
+  &--green {
+    background-color: #42B883;
+    &#{$self}--active {
+      border: 2px solid darken(#42B883, 30%);
+    }
+  }
+
+  &--blue {
+    background-color: #64C4ED;
+    &#{$self}--active {
+      border: 2px solid darken(#64C4ED, 30%);
+    }
+  }
+
+  &--light-pink {
+    background-color: #FFBBCC;
+    &#{$self}--active {
+      border: 2px solid darken(#FFBBCC, 30%);
+    }
+  }
+
+  &--light-green {
+    background-color: #B6E6BD;
+    &#{$self}--active {
+      border: 2px solid darken(#B6E6BD, 30%);
+    }
+  }
+
+  &--purple {
+    background-color: #C355F5;
+    &#{$self}--active {
+      border: 2px solid darken(#C355F5, 30%);
+    }
+  }
+
+  &--black {
+    background-color: #09011A;
+    &#{$self}--active {
+      border: 2px solid darken(#09011A, 30%);
+    }
+  }
+
+  &--pink {
+    background-color: #FF6464;
+    &#{$self}--active {
+      border: 2px solid darken(#FF6464, 30%);
+    }
+  }
+
+  &--folder {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+  }
+}

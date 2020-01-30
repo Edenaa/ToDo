@@ -1,0 +1,41 @@
+.folders {
+  width: 20%;
+  min-height: 100vh;
+  padding: 60px 20px;
+  background-color: #F4F6F8;
+  box-sizing: border-box;
+  input {
+    margin-bottom: 15px;
+  }
+  .button--add {
+    width: 100%;
+  }
+  .error {
+    margin-bottom: 15px;
+    color: red;
+  }
+  &--wrap {
+    margin-bottom: 45px;
+  }
+  .folders-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    z-index: 1;
+    cursor: pointer;
+    &--active {
+      background: #FFFFFF;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+      border-radius: 4px;
+    }
+    .folder-name {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

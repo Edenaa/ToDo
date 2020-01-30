@@ -1,0 +1,49 @@
+.folder-header {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  padding-bottom: 20px; 
+  border-bottom: 1px solid #F2F2F2;
+
+  &-name {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    border: none;
+    &--gray {
+      color: #C9D1D3;
+    }
+  
+    &--green {
+      color: #42B883;
+    }
+  
+    &--blue {
+      color: #64C4ED;
+    }
+  
+    &--light-pink {
+      color: #FFBBCC;
+    }
+  
+    &--light-green {
+      color: #B6E6BD;
+    }
+  
+    &--purple {
+      color: #C355F5;
+    }
+  
+    &--black {
+      color: #09011A;
+    }
+  
+    &--pink {
+      color: #FF6464;
+    }
+
+    &:disabled {
+      background-color: transparent;
+    }
+  }
+}

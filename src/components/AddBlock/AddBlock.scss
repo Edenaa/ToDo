@@ -1,0 +1,10 @@
+.add-block {
+  padding: 20px;
+  background-color: #FFFFFF;
+  &--folder {
+    position: absolute;
+    width: 235px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  }
+}
